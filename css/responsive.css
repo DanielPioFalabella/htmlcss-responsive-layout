@@ -2,7 +2,21 @@
 
 /* responsive per tablet 768px */
 @media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
 
+    main {
+        padding: 20px 60px;
+    }
+
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    .recipe-name {
+        font-size: 34px;
+    }
 }
 
 /* responsive per desktop 992px in su */
