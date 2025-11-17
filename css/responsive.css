@@ -17,9 +17,77 @@
     .recipe-name {
         font-size: 34px;
     }
+
+    .quick-notes ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        width: calc(100% / 3);
+    }
+
+    .btn {
+        padding: 10px 40px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 16px;
+    }
 }
 
 /* responsive per desktop 992px in su */
 @media screen and (min-width: 992px) {
+    .recipe-name {
+        font-size: 40px;
+    }
 
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 70%;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+
+    .quick-notes li {
+        width: 100%;
+    }
+
+    .social-networks {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: flex;
+    }
+
+    .btn .label {
+        display: block;
+        padding: 0 5px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer address {
+        text-align: left;
+    }
 }
